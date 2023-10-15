@@ -70,7 +70,7 @@ h1 {
 
 body::-webkit-scrollbar {
   width: 15px;
-  background: rgba(198, 196, 193, 0.587);
+  background: rgba(210, 207, 204, 0.587);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -97,4 +97,10 @@ body::-webkit-scrollbar-thumb {
 ::before {
   color: rgb(255, 162, 0);
   font-weight: bold;
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .card {
+    box-shadow: 0px 0px 18px 3px rgba(236, 215, 160, 0.292);
+  }
 }
